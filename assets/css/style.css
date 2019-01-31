@@ -1,0 +1,13 @@
+.jumbotron {
+    background-image: url('../images/trainstation.jpg');
+    background-position: 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: 5px 5px 10px #000000;
+   
+}
+
+h1 {
+    font-size: 100px;
+}
