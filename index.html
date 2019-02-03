@@ -35,12 +35,13 @@
                     </table>
                 </div>
             </div>
-
+            <br>
             <!-- Form to add new train -->
             <div class="panel panel-default">
                 <div class="panel-heading">
                     <h3>Add Train</h3>
                 </div>
+                <hr>
                 <div class="panel-body">
                     <form>
 
@@ -55,7 +56,7 @@
                         </div>
 
                         <div class="form-group">
-                            <label for="text">First Train Time</label>
+                            <label for="text">First Train Time (hh:mm - Military Time)</label>
                             <input type="text" class="form-control" id="first-train-time">
                         </div>
 
@@ -65,7 +66,7 @@
                         </div>
 
                         <button type="submit" id="add-train" class="btn btn-success" id="addTrain">Submit</button>
-
+                        
                     </form>
                 </div>
             </div>
@@ -73,9 +74,10 @@
 
         </div>
         
-        <script src="assets/javascript/app.js"></script>
+        
         <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-        <script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
-	    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.8.2/firebase.js"></script>
+        <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+        <script src="assets/javascript/app.js"></script>
     </body>
 </html>
